@@ -1,0 +1,5 @@
+require 'statusline'
+require 'opts'
+require 'plugins'
+--require 'lsp'
+vim.cmd 'set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz'
