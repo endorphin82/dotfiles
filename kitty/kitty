@@ -1,0 +1,28 @@
+# transparent_background_colors red@0.5 #00ff00@0.3
+# background_blur 0
+background_opacity 0.9
+font_size 18.0
+font_family FiraCode Nerd Font
+disable_ligatures never
+
+# cursor_trail 5
+# cursor_trail_decay 0.1 0.4
+# cursor_trail_start_threshold 2
+
+# cursor_trail 3
+# cursor_trail_start_threshold 20
+# -> => =| <| <= <== >=
+# enabled_layouts tall:bias=56,fat:bias=72
+# foreground #EBDBB2
+# inactive_border_color #504945
+# inactive_tab_background #3C3836
+# inactive_tab_foreground #A89984
+# initial_window_height 36c
+# initial_window_width 100c
+# input_delay 0
+# font_family IosevkaTerm Nerd 
+# font_family IosevkaTermSlab Nerd 
+
+# hide_window_decorations titlebar-only
+# window_margin_width 2 0 0 2
+include ./theme.conf
