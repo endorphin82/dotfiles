@@ -1,0 +1,63 @@
+-- local colorscheme = require "lazyvim.plugins.colorscheme"
+-- return {
+--   {
+--     "folke/tokyonight.nvim",
+--     opts = {
+--       transparent = true,
+--       styles = {
+--         sidebars = "transparent",
+--         floats = "transparent",
+--       },
+--     },
+--   },
+-- }
+-- return {
+--   { "catppuccin/nvim", name = "catppuccin", ptiority = 1001 },
+--
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "catppuccin",
+--     },
+--   },
+-- }
+
+-- return {
+--   {
+--     "catppuccin/nvim",
+--     name = "catppuccin",
+--     priority = 1001,
+--     opts = {
+--       integrations = {
+--         bufferline = true,
+--       },
+--     },
+--   },
+--
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "catppuccin",
+--     },
+--   },
+-- }
+
+return {
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1001,
+    opts = {
+      integrations = {
+        bufferline = true,
+      },
+    },
+  },
+
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin",
+    },
+  },
+}

@@ -1,4 +1,7 @@
 # dotfiles
 
-stow
-
+example:
+`
+cd dotfiles
+stow nvim
+`

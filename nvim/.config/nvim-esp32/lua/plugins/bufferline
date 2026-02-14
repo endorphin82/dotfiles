@@ -1,0 +1,9 @@
+return {
+  "akinsho/bufferline.nvim",
+  dependencies = { "catppuccin/nvim" },
+  opts = function(_, opts)
+    -- отримати стилі з catppuccin
+    opts.highlights = require("catppuccin.groups.integrations.bufferline").get()
+    return opts
+  end,
+}
